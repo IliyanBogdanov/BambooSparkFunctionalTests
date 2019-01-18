@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="BambooSparkIOSPhone">
+<test name="BambooSparkIOSPhone">
+<parameter name="DriverName" value="iOSPhone"/> 
+<classes>
+<class name="BambooSparkFunctionalTests.BambooSparkFunctionalTests"/>
+</classes>
+</test>
+</suite>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [BambooSparkIOSPhone]">
+  <parameter name="DriverName" value="iOSPhone"/>
+  <test name="BambooSparkAndroid(failed)">
+    <parameter name="DriverName" value="iOSPhone"/>
+    <classes>
+      <class name="BambooSparkFunctionalTests.BambooSparkFunctionalTests">
+        <methods>
+          <include name="drawingAndErasing"/>
+          <include name="rotateNoteInMergePage"/>
+          <include name="assertThatThereIsANoteOnTheHomePage"/>
+          <include name="verifySelectAndSettingsOptionsAreVisibleOnTheHomePage"/>
+          <include name="verifyAboutPage"/>
+          <include name="verifyExportOptionsAreDisplayedInMergeScreen"/>
+          <include name="redo"/>
+          <include name="noteRotation"/>
+          <include name="verifyExportOptionsAreVisible"/>
+          <include name="verifyOtherAppsScreen"/>
+          <include name="verifySettingsOptionsAreDisplayed"/>
+          <include name="split"/>
+          <include name="verifyInkspaceScreen"/>
+          <include name="deleteTwoNotes"/>
+          <include name="deleteNote"/>
+          <include name="mergeTwoNotes"/>
+          <include name="assertErrorMessageIsAppearingAfterMergeOnNotesWithDifferentOrientation"/>
+          <include name="verifyHelpScreen"/>
+          <include name="verifyAccessoriesPage"/>
+        </methods>
+      </class> <!-- BambooSparkFunctionalTests.BambooSparkFunctionalTests -->
+    </classes>
+  </test> <!-- BambooSparkAndroid(failed) -->
+</suite> <!-- Failed suite [BambooSparkIOSPhone] -->
